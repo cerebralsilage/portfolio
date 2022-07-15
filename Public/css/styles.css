@@ -1,0 +1,406 @@
+
+/* ================= Portfolio Stylesheet ====================*/
+
+
+/* --- cross page styles --- */
+html {
+	background-color: #090909;
+}
+
+body {
+	margin: 0;
+	background-image: url("../assets/pics/images.webp");
+	background-repeat: no-repeat;
+	background-size: 100% 100vh;
+  background-position: center top;
+}
+
+a {
+	text-decoration: none;
+	color: #c9c9d1;
+}
+
+header {
+	height: 150px;
+	position: relative;
+	width: 100vw;
+}
+
+h1 {
+	color: #c9c9d1;
+	font-family: 'Lilita One', cursive;
+	margin: 0;
+	padding: 60px 140px;
+	text-shadow: -5px -1px #515357,
+	             -12px 7px 1px #00000069;
+	font-size: 3.5rem;
+	line-height: 50px;
+}
+
+h3 {
+  color: #c9c9d1;
+  font-family: 'Lilita One', cursive;
+  font-size: 1.4rem;
+	text-shadow: -3px 0 0 #3f433f;
+	padding-right: 30px;
+}
+
+p {
+	color: #cec8c8;
+	text-shadow: -2px 2px 11px #000;
+	font-size: 1.2rem;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+}
+
+li {
+  font-family: 'Lilita One', cursive;
+  font-size: 2rem;
+  list-style: none;
+  text-align: center;
+	font-family: 'Lilita One', cursive;
+	position: absolute;
+}
+
+.about {
+  text-shadow: 
+    -4px 0 #881a1a, 
+    -12px 7px 1px #00000069;
+  left: 26%;
+}
+
+.projects {
+  text-shadow: 
+    -4px 0 #1c3ba4,
+    -12px 7px 1px #00000069;
+  left: 45%;
+}
+
+.contact {
+  text-shadow: 
+    -4px 0 #6f7c0e,
+    -12px 7px 1px #00000069;
+  left: 66%;
+}
+
+li a:hover {
+	font-size: 2.5rem;
+}
+
+
+/* --- about page --- */
+
+article {
+	padding-top: 120px;
+}
+
+.p {
+	height: 1rem;
+	margin: 0	8px	69px	0;
+	display: none;
+}
+
+.pclose {
+	height: 1.1rem;
+	display: none;
+}
+
+.aboutp {
+  margin: 0 auto;
+  width: 560px;
+  text-align: center;
+  background-color: #0000008f;
+  height: 200px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: #cec8c8;
+	text-shadow: -2px 2px 11px #000;
+  box-shadow: 11px 10px 5px #0000004d;
+  border: 2px solid #262626;
+}
+
+
+/* --- Projects Page --- */
+
+.pro-tainer {
+  display: flex;
+  justify-content: center;
+	background-color: #0000008f;
+	height: auto;
+	width: 60%;
+	margin: 150px auto 0 auto;
+	border-radius: 10px;
+  box-shadow: 11px 10px 5px #0000004d;
+  align-content: center;
+  align-items: flex-end;
+  padding: 30px;
+  max-width: 430px;
+  min-width: 230px;
+  border: 2px solid #262626;
+}
+
+.pro-tainer h3 {
+  margin: 0;
+}
+
+.pro-tainer p {
+  margin: 0 5px;
+}
+
+.pro-tainer a:hover {
+  color: #cec8c870;
+}
+
+.proalbum {
+	display: flex;
+	flex-wrap: wrap;
+  gap: 40px;
+  margin: 140px auto 40px auto;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.frame {
+	background-color: #5b5858;
+	padding: 2px;
+	box-shadow: 11px 10px 5px #0000004d;
+}
+
+ .pa {
+ 	height: 200px;
+  width: 350px;
+  background-color: black;
+  padding: 2px;
+  overflow: hidden;
+ } 
+
+ .frame img {
+ 	width: 98%;
+ 	height: 97%;
+ 	padding: 3px;
+ }
+
+
+/* --- Contact Page --- */
+
+.con-tainer {
+  display: flex;
+  justify-content: center;
+	background-color: #0000008f;
+	height: auto;
+	width: 60%;
+	margin: 90px auto 0 auto;
+	border-radius: 10px;
+  box-shadow: 11px 10px 5px #0000004d;
+  align-items: center;
+  align-content: center;
+  padding: 18px 30px 30px;
+  max-width: 430px;
+  min-width: 230px;
+  flex-direction: column;
+  border: 2px solid #262626;
+}
+
+.con-tainer h3 {
+  margin: 20px 0 0;
+}
+
+.con-tainer p {
+  margin: 5px;
+}
+
+.con-tainer a:hover {
+  color: #cec8c870;
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+textarea,
+input {
+  background-color: #dadada;
+  border: none;
+  border-radius: 2px;
+}
+
+input {
+  width: 235px;
+}
+
+button {
+  background-color: #adabab;
+  height: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+button:active {
+  background-color: rgb(83, 82, 82);
+  border: 1px ridge rgb(45, 44, 44);
+}
+
+
+
+/* --- @media --- */
+
+@media only screen and (max-width: 1300px) {
+  .about {
+    left: 21%;
+	}
+
+  .projects {
+    left: 44%;
+	}
+
+	.contact {
+  	left: 69%;
+	}
+}
+
+@media only screen and (max-width: 1180px) {
+  .about {
+    left: 19%;
+	}
+
+  .projects {
+    left: 43%;
+	}
+}
+
+@media only screen and (max-width: 940px) {
+	h1 {
+		padding: 60px 70px;
+	}
+
+	.about {
+    left: 14%;
+	}
+
+  .projects {
+    left: 42%;
+	}
+
+	.contact {
+  	left: 71%;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+  .about {
+    left: 12%;
+	}
+
+  .projects {
+    left: 40%;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+  .aboutp {
+  	width: 70%;
+  }
+} 
+
+@media only screen and (max-width: 590px) {
+	li {
+		padding-right: 0;
+	}
+
+	.proalbum {
+		margin-top: 160px;
+	}
+
+  .con-tainer {
+    flex-wrap: wrap;
+    padding: 30px 50px 50px;
+  }
+
+  h3 {
+    padding: 0;
+    margin: 0 0 10px;
+  }
+
+  .con-tainer p {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  body {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  h1 {
+    padding: 30px 70px 0 50px;
+  }
+
+  .hprojects {
+    margin-top: 20px;
+  }
+
+	.about {
+    left: 12%;
+	}
+
+  .pro-tainer {
+    margin-top: 90px;
+  }
+
+  .projects {
+    left: 29%;
+    top: 35%;
+	}
+
+	.contact {
+  	left: 52%;
+  	top: 70%;
+	}
+
+  ul {
+  	height: 90px;
+    margin-bottom: 80px;
+  }
+
+  article {
+  	padding-top: 0;
+  }
+
+	.aboutp {
+		height: auto;
+	}
+
+	.proalbum {
+		gap: 20px;
+		margin-top: 100px;
+	}
+
+  .con-tainer {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  h1 {
+  	padding-left: 30px;
+  }
+}
