@@ -2,14 +2,12 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
-console.log(process.env.Pass)
-
 const app = express();
 
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(express.static('public'));
+app.use(express.static('Public'));
 app.use(express.json());
 
 app.get('/', (req, res) => {
